@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: 0;
+
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images2/Black-Wallpaper-Images-Blue.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  min-height: 100vh;
+}
+
+.form{
+  background: black;
+  width: 23%;
+  height: 520px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px 3px cyan;
+  transition: 1s;
+  border-radius: 2px;
+  transform: translateX(100px);
+}
+
+.avatar{
+  position: relative;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  transition: 1s;
+  margin: 1% auto;
+  overflow: hidden;
+}
+
+.avatar img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  transition: 1s;
+  filter: blur(0.6px);
+}
+
+.field{
+  width: 80%;
+  margin: 0 auto;
+  transition: 1s;
+}
+
+.field label{
+  color: white;
+  text-transform: none;
+  font-size: 20px;
+}
+
+.field input[type=text], .field input[type=password]{
+  display: block;
+  background: #F3FAFD;
+  height: 25%;
+  width: 100%;
+  border: 2px solid #A9DDF3;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 15px;
+  text-transform: none;
+  margin-top: 4%;
+  transition: 1s;
+}
+
+.field input[type=submit]{
+  display: block;
+  background: aqua;
+  height: 25%;
+  width: 100%;
+  border:none;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 15px;
+  text-transform: none;
+  margin-top: 1%;
+  box-shadow: 0 2px 5px beige;
+  font-weight: 900;
+  color: currentColor;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+  border-radius:2px;
+}
+
+.field input[type=submit]:hover{
+  background: black;
+  box-shadow: 0 2px 5px white;
+  color: white;
+
+}
